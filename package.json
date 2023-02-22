@@ -1,0 +1,26 @@
+{
+  "name": "react-native-ahmywheelscrollview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lihuiqiang/react-native-ahmywheelscrollview.git"
+  },
+  "keywords": [
+    "scrollview"
+  ],
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-native": "^0.64.4"
+  },
+  "author": "lihuiqiang",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/lihuiqiang/react-native-ahmywheelscrollview/issues"
+  },
+  "homepage": "https://github.com/lihuiqiang/react-native-ahmywheelscrollview#readme"
+}
