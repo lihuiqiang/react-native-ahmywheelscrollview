@@ -66,8 +66,8 @@ export class AHMYWheelScrollView extends Component {
         this.state.twoFadeInOpacity.setValue(startTwoValue);
         this.state.threeFadeInOpacity.setValue(startThreeValue);
 
-        let translateDuration = 400;
-        let delay = 2000;
+        let translateDuration = this.props.duration || 400;
+        let delay = this.props.delay || 2000;
         let opacityDuration = 200;
 
         this.parallelAnimate = Animated.parallel([

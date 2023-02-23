@@ -1,6 +1,6 @@
 {
   "name": "react-native-ahmywheel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "url": "git@github.com:lihuiqiang/react-native-ahmywheelscrollview.git"
   },
   "keywords": [
-    "scrollview"
+    "scroll",
+    "auto"
   ],
   "dependencies": {
     "react": "17.0.1",
