@@ -1,6 +1,6 @@
 {
-  "name": "react-native-ahmywheel",
-  "version": "1.0.2",
+  "name": "react-native-ahmywheelscrollview",
+  "version": "1.0.15",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,8 @@
   ],
   "dependencies": {
     "react": "17.0.1",
-    "react-native": "6420.0.1"
+    "react-native": "6420.0.1",
+    "user": "^0.0.0"
   },
   "author": "lihuiqiang",
   "license": "",

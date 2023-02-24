@@ -35,11 +35,15 @@ export class AHMYWheelScrollView extends Component {
     }
 
     updateViewList(viewList) {
+        this.isAnimate = false;
         this.parallelAnimate && this.parallelAnimate.stop();
         this.setState({
             viewList,
         },()=>{
+            this.state.translateY.setValue(0);
+            this.state.oneFadeInOpacity.setValue(1);
             if (this.state.viewList.length > 1) {
+                this.isAnimate = true;
                 this.autoScroll(0);
             } else if (this.state.viewList.length === 1){
                 this.state.oneFadeInOpacity.setValue(1);
